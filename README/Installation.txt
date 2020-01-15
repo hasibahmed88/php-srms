@@ -1,0 +1,22 @@
+Step 1:
+	Download or copy "Student management system project file".
+Step 2:
+	Run Xampp control panel in your machine and start "Apache and MySql".
+	If don't have xampp server open the link below and download it.
+	https://www.apachefriends.org/
+Step 3:
+	Goto your my computer follow the path >> C:\xampp\htdocs | and paste your project file.(Unziped file).
+Step 4:
+	Open any browser and goto  "localhost/phpmyadmin" >> Create a new database name "srms".
+	Open srms database and import the "sql file". Goto >> C:\xampp\htdocs\srms\sql
+Step 5:
+	Write browser address bar "localhost/php-srms" and enter
+Step 6:
+	For admin:
+		username: admin
+		password: admin123
+
+
+* Created by "Hasib Ahmed"
+* Email: hasibahmed885@gmail.com
+
