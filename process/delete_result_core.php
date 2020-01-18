@@ -9,11 +9,11 @@ if (isset($_REQUEST['id'])) {
 	$query= mysqli_query($connect,$delete);
 
 	if ($query==true) {
-		header("location: ../manage_result_page.php?resultDeletedSuccessfully");
+		header("location: ../manage_result.php?resultDeletedSuccessfully");
 		exit();
 	}
 	else{
-		header("location: ../manage_result_page.php?resultDeletedFailed");
+		header("location: ../manage_result.php?resultDeletedFailed");
 		exit();
 	}
 }

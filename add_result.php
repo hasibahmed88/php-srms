@@ -100,16 +100,12 @@ require_once("./include/leftbar.php");
 
 	</div>
 
-			
-
 
 </div>
 
 
 </div>
 </div>
-
-
 
 
  <?php 

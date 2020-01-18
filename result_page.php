@@ -189,8 +189,6 @@ if (isset($_REQUEST['submit-search-result'])) {  // main if statement
 	?>
 
 
-	
-
 
 		<?php }
 

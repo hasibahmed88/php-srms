@@ -24,7 +24,6 @@ require_once("./include/leftbar.php");
 
 <div class="m-md-3 p-3 bg-light rounded">
 	
-
 	<div class="row justify-content-center">
 	<div class="col col-md-8">
 		<div class="border bounded p-3 rounded">

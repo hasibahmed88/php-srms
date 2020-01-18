@@ -170,15 +170,6 @@ if (isset($_REQUEST['loginSuccess'])) { ?>
 
 
 
-
-
-
-
-
-
-
-
-
   </div>  <!-- second column / col-md-9 col-lg-10 -->
 
 

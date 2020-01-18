@@ -90,7 +90,7 @@ require_once("./include/leftbar.php");
 					<td><?php echo $semister ?></td>
 					<td>
 						<a class="btn btn-primary btn-sm" href="edit_department.php?id=<?php echo $id ?>"><span><i class="fas fa-edit"></i></span></a>
-						<a class="btn btn-danger btn-sm" href="process/delete_department_core.php?id=<?php echo $id ?>"><span><i class="fas fa-trash-alt"></i></span></a>
+						<a class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')" href="process/delete_department_core.php?id=<?php echo $id ?>"><span><i class="fas fa-trash-alt"></i></span></a>
 					</td>
 					
 				</tr>

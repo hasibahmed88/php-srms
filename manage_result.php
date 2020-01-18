@@ -56,20 +56,6 @@ require_once("./include/leftbar.php");
 
 			?>
 
-		<!-- <div class="row justify-content-between mb-2">
-			<div class="col-3">
-				<a href="add_result.php" class="btn btn-primary btn-sm">Add Result</a>
-			</div>
-			<div class="col-2">
-				<form action="" method="post">
-					<div class="input-group">
-						<input type="text" name="search_key" class="form-control form-control-sm" value="<?php echo $search_key ?>" >
-						<input type="submit" value="Search" name="result_search_btn" class="btn btn-success btn-sm">
-					</div>
-				</form>
-			</div>
-		</div>
-		<hr> -->
 
 
 			<h6>There are <?php echo "<span class='text-success'><strong>$countRows</strong></span>" ?> result found!</h6>
@@ -135,6 +121,19 @@ require_once("./include/leftbar.php");
 
 
 		<div class="border bounded p-3 rounded">
+			<div class="row justify-content-end">
+			<div class="col-3">
+				<?php 
+					if (isset($_REQUEST['resultDeletedSuccessfully'])) {
+						?>
+							<div class="alert alert-success">
+								<strong>Success! </strong> <span> Result deleted successfull.</span>
+							</div>
+					<?php }
+				 ?>
+			</div>
+		</div>
+
 			<table class="table table-sm table-responsive-sm table-striped table-hover table-bordered">
 					<tr class="bg-dark text-light">
 						<th>No</th>
